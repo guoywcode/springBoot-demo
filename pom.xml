@@ -17,9 +17,14 @@
 
   <properties>
     <java.version>1.8</java.version>
+    <demo.version>1.0</demo.version>
   </properties>
+
   <modules>
     <module>springboot-demo-020-properties</module>
+    <module>springboot-demo-030-jdbc</module>
+    <module>springboot-demo-040-jpa</module>
+    <module>springboot-demo-050-mybatis</module>
   </modules>
 
   <dependencyManagement>
@@ -27,7 +32,22 @@
       <dependency>
         <groupId>com.guoyw</groupId>
         <artifactId>springboot-demo-020-properties</artifactId>
-        <version>1.0</version>
+        <version>${demo.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.guoyw</groupId>
+        <artifactId>springboot-demo-030-jdbc</artifactId>
+        <version>${demo.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.guoyw</groupId>
+        <artifactId>springboot-demo-040-jpa</artifactId>
+        <version>${demo.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.guoyw</groupId>
+        <artifactId>springboot-demo-050-mybatis</artifactId>
+        <version>${demo.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
@@ -83,5 +103,7 @@
       </plugin>
     </plugins>
   </build>
+
+
 
 </project>
