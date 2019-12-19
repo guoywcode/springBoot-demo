@@ -21,6 +21,7 @@
   </properties>
 
   <modules>
+    <module>springboot-demo-010-maven</module>
     <module>springboot-demo-020-properties</module>
     <module>springboot-demo-030-jdbc</module>
     <module>springboot-demo-031-jdbc-template</module>
@@ -30,6 +31,11 @@
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>com.guoyw</groupId>
+        <artifactId>springboot-demo-010-maven</artifactId>
+        <version>${demo.version}</version>
+      </dependency>
       <dependency>
         <groupId>com.guoyw</groupId>
         <artifactId>springboot-demo-020-properties</artifactId>
