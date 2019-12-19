@@ -23,6 +23,7 @@
   <modules>
     <module>springboot-demo-020-properties</module>
     <module>springboot-demo-030-jdbc</module>
+    <module>springboot-demo-031-jdbc-template</module>
     <module>springboot-demo-040-jpa</module>
     <module>springboot-demo-050-mybatis</module>
   </modules>
@@ -37,6 +38,11 @@
       <dependency>
         <groupId>com.guoyw</groupId>
         <artifactId>springboot-demo-030-jdbc</artifactId>
+        <version>${demo.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.guoyw</groupId>
+        <artifactId>springboot-demo-031-jdbc-template</artifactId>
         <version>${demo.version}</version>
       </dependency>
       <dependency>
