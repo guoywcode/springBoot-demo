@@ -20,6 +20,7 @@
     <demo.version>1.0</demo.version>
   </properties>
 
+
   <modules>
     <module>springboot-demo-010-maven</module>
     <module>springboot-demo-020-properties</module>
@@ -27,6 +28,10 @@
     <module>springboot-demo-031-jdbc-template</module>
     <module>springboot-demo-040-jpa</module>
     <module>springboot-demo-050-mybatis</module>
+    <module>springboot-demo-060-exception</module>
+    <module>springboot-demo-070-interceptor</module>
+    <module>springboot-demo-080-shiro</module>
+    <module>springboot-demo-090-swagger</module>
   </modules>
 
   <dependencyManagement>
@@ -59,6 +64,26 @@
       <dependency>
         <groupId>com.guoyw</groupId>
         <artifactId>springboot-demo-050-mybatis</artifactId>
+        <version>${demo.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.guoyw</groupId>
+        <artifactId>springboot-demo-060-exception</artifactId>
+        <version>${demo.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.guoyw</groupId>
+        <artifactId>springboot-demo-070-interceptor</artifactId>
+        <version>${demo.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.guoyw</groupId>
+        <artifactId>springboot-demo-080-shiro</artifactId>
+        <version>${demo.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.guoyw</groupId>
+        <artifactId>springboot-demo-090-swagger</artifactId>
         <version>${demo.version}</version>
       </dependency>
     </dependencies>
