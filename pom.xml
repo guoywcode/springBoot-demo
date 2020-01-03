@@ -20,7 +20,6 @@
     <demo.version>1.0</demo.version>
   </properties>
 
-
   <modules>
     <module>springboot-demo-010-maven</module>
     <module>springboot-demo-020-properties</module>
@@ -31,6 +30,7 @@
     <module>springboot-demo-060-exception</module>
     <module>springboot-demo-070-interceptor</module>
     <module>springboot-demo-080-shiro</module>
+    <module>springboot-demo-081-shiro-realm</module>
     <module>springboot-demo-090-swagger</module>
   </modules>
 
@@ -79,6 +79,11 @@
       <dependency>
         <groupId>com.guoyw</groupId>
         <artifactId>springboot-demo-080-shiro</artifactId>
+        <version>${demo.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.guoyw</groupId>
+        <artifactId>springboot-demo-081-shiro-realm</artifactId>
         <version>${demo.version}</version>
       </dependency>
       <dependency>
