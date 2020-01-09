@@ -1,0 +1,10 @@
+httpclient:
+  maxTotal: 300
+  defaultMaxPerRoute: 100
+  connectTimeout: 1000
+  connectionRequestTimeout: 500
+  socketTimeout: 100000000
+  staleConnectionCheckEnabled: true
+  #  keyStorePath: C:/Users/Administrator/Desktop/广州办映射服务器测试证书20181010/dakehu/keystore.jks #证书路径
+  keyStorePath: /usr/https_cert/keystore.jks #证书路径
+  keyStorepass: 123456 #证书密码`

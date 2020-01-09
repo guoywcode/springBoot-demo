@@ -32,6 +32,9 @@
     <module>springboot-demo-080-shiro</module>
     <module>springboot-demo-081-shiro-realm</module>
     <module>springboot-demo-090-swagger</module>
+    <!--<module>springboot-demo-110-http</module>-->
+    <!--<module>springboot-demo-120-redis</module>-->
+    <module>springboot-demo-113-http-client</module>
   </modules>
 
   <dependencyManagement>
@@ -89,6 +92,23 @@
       <dependency>
         <groupId>com.guoyw</groupId>
         <artifactId>springboot-demo-090-swagger</artifactId>
+        <version>${demo.version}</version>
+      </dependency>
+
+      <!--<dependency>-->
+        <!--<groupId>com.guoyw</groupId>-->
+        <!--<artifactId>springboot-demo-110-http</artifactId>-->
+        <!--<version>${demo.version}</version>-->
+      <!--</dependency>-->
+      <!--<dependency>-->
+        <!--<groupId>com.guoyw</groupId>-->
+        <!--<artifactId>springboot-demo-120-redis</artifactId>-->
+        <!--<version>${demo.version}</version>-->
+      <!--</dependency>-->
+
+      <dependency>
+        <groupId>com.guoyw</groupId>
+        <artifactId>springboot-demo-113-http-client</artifactId>
         <version>${demo.version}</version>
       </dependency>
     </dependencies>
