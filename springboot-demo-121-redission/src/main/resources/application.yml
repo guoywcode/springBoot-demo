@@ -1,0 +1,12 @@
+spring:
+  session:
+    store-type: redis
+
+  redis:
+    #数据库索引
+    database: 1
+    host: 47.102.192.148
+    port: 6379
+    password: guoyw_redis
+
+logging.level.org.springframework.boot.autoconfigure: ERROR

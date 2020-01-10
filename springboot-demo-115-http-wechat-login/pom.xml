@@ -8,9 +8,9 @@
     <version>1.0</version>
   </parent>
   <groupId>com.guoyw</groupId>
-  <artifactId>springboot-dome-115-http-wechat-login</artifactId>
+  <artifactId>springboot-demo-115-http-wechat-login</artifactId>
   <packaging>jar</packaging>
-  <name>springboot-dome-115-http-wechat-login</name>
+  <name>springboot-demo-115-http-wechat-login</name>
   <description>Demo project for Spring Boot</description>
 
 

@@ -35,6 +35,7 @@
     <!--<module>springboot-demo-110-http</module>-->
     <!--<module>springboot-demo-120-redis</module>-->
     <module>springboot-demo-113-http-client</module>
+    <module>springboot-demo-115-http-wechat-login</module>
   </modules>
 
   <dependencyManagement>
@@ -109,6 +110,11 @@
       <dependency>
         <groupId>com.guoyw</groupId>
         <artifactId>springboot-demo-113-http-client</artifactId>
+        <version>${demo.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.guoyw</groupId>
+        <artifactId>springboot-demo-115-http-wechat-login</artifactId>
         <version>${demo.version}</version>
       </dependency>
     </dependencies>
